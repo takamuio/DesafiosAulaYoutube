@@ -31,7 +31,7 @@ if maquina == 0:
         ('jogada invalida !')
 elif maquina == 1:
     if jogador == 0:
-        print('Você pedeu !')
+        print('Você perdeu !')
     elif jogador == 1:
         print('Deu empate.')
     elif jogador == 2:
@@ -42,7 +42,7 @@ elif maquina == 2:
     if jogador == 0:
         print('Você ganhou !')
     elif jogador == 1:
-        print('Você pedeu !')
+        print('Você perdeu !')
     elif jogador == 2:
         print('Deu empate.')
     else:
